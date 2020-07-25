@@ -4,6 +4,9 @@
 
 This is the repository to replicate  fine-tuning classifier training experiments with pretrained ALBERT.
 ### Data
+
+https://drive.google.com/file/d/1o12gyV_YY8E2lWFaqm73xsT5wfpGBsk8/view?usp=sharing
+
 ### Prerequisites
 ### Pretrained ALBERT
 ### Finetuing
