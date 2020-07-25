@@ -29,6 +29,8 @@ To run ALBERT model (default: ALBERRT frozen transformer):
 python finetuning.py --protein_embedding_type="albert"
 ```
 To try other freezing options, change "frozen_list" to choose modules to be frozen.
+
+
 To run LSTM model:
 ```
 python finetuning.py --protein_embedding_type="lstm"
