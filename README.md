@@ -10,3 +10,4 @@ https://drive.google.com/file/d/1o12gyV_YY8E2lWFaqm73xsT5wfpGBsk8/view?usp=shari
 ### Prerequisites
 ### Pretrained ALBERT
 ### Finetuing
+![image](https://user-images.githubusercontent.com/33879882/88445160-f3896600-cdee-11ea-9dcc-e3eeac1d3796.png)
