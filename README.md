@@ -40,5 +40,5 @@ python finetuning_train.py --protein_embedding_type="lstm"
 ```
 
 
-![distilled-and-architecture](https://user-images.githubusercontent.com/33879882/91499331-42636900-e88f-11ea-9b47-83ab96b3d9ed.png)
+![distilled-and-architecture](https://user-images.githubusercontent.com/33879882/91499613-b9006680-e88f-11ea-8374-fe7ce529666a.png)
 
