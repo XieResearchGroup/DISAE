@@ -1,6 +1,6 @@
 # DISAE
-## Genome-wide Prediction of Small Molecule Binding to Remote Orphan Proteins Using Distilled Sequence Alignment Embedding
-Paper preprint:  https://doi.org/10.1101/2020.08.04.236729 
+## A Deep Learning Framework for Elucidating Chemical Interaction Space of Orphan Proteins
+
 
 
 
