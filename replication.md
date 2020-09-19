@@ -27,7 +27,7 @@ pip install transformers==2.3.0
 ### 5. (Optional) Install pytorch and torchvision according to CUDA Version of GPU
 ```
 nvcc --version # Check CUDA Version
-conda install pytorch torchvision cudatoolkit=10.1 -c pytorch # Replace 10.1 with approprivate version
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch # Replace 10.1 with appropriate version
 ```
 
 ### 6. View README.md and follow Step 4
