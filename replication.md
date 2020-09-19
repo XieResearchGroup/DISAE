@@ -11,8 +11,6 @@ nvidia-docker run --name pytorch -it --network=host --rm -v /raid/home/username/
 ### 2. Create an RDKit environment
 ```
 conda create -n rdkit-env -c rdkit rdkit libboost=1.65.1
-```
-```
 conda activate rdkit-env # If this line does not work, use 'source activate rdkit-env' instead 
 ```
 
@@ -29,10 +27,9 @@ pip install transformers==2.3.0
 ### 5. (Optional) Install pytorch and torchvisiation according to CUDA Toolkit according to CUDA Version of GPU
 ```
 nvcc --version # Check CUDA Version
-```
-```
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch # Replace 10.1 with approprivate version
 ```
 
+### 6. View README.md and follow Step 4
 
 
