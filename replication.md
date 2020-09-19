@@ -24,7 +24,7 @@ conda install -c conda-forge dataclasses scipy networkx tensorflow scikit-learn
 pip install transformers==2.3.0
 ```
 
-### 5. (Optional) Install pytorch and torchvisiation according to CUDA Toolkit according to CUDA Version of GPU
+### 5. (Optional) Install pytorch and torchvision according to CUDA Toolkit according to CUDA Version of GPU
 ```
 nvcc --version # Check CUDA Version
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch # Replace 10.1 with approprivate version
