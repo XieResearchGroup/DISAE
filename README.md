@@ -23,7 +23,7 @@ There will be four subdirectories in the data folder.
 
 - activity: gives you the  train/dev/test set split based on protein similarity at threshold of bitscore 0.035
 - albertdata: gives you pretrained ALBERT model. The ALBERT is pretraind on distilled triplets of whole Pfam
-- Intergrated: gives collected chemicals from several database
+- Integrated: gives collected chemicals from several database
 - protein: gives you mapping from uniprot ID to triplets form
 
 ### 4. Run Finetuning
