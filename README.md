@@ -10,7 +10,7 @@ This is the repository to replicate experiments for the fine-tuning of classifie
 - python 3.7
 - Pytorch 
 - rdkit
-- Transformers ([Huggingface](https://huggingface.co/transformers/). The author installed the package in Jan 2020. The newest version might have slight changes)
+- Transformers ([Huggingface](https://huggingface.co/transformers/). version 2.3.0)
 
 ### 2. Clone this repository
 
