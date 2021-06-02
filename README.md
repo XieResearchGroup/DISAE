@@ -15,7 +15,7 @@ This is the repository to replicate experiments for the fine-tuning of classifie
 ### 2. Clone this repository
 
 ### 3. Download Data
-All data could be download [here](https://drive.google.com/file/d/1o12gyV_YY8E2lWFaqm73xsT5wfpGBsk8/view?usp=sharing) and put it under this repository, i.e. in the same directory as the finetuning_train.py.
+All data could be download [here](https://zenodo.org/record/4892316#.YLcxR6hKiUk) and put it under this repository, i.e. in the same directory as the finetuning_train.py.
 
 There will be four subdirectories in the data folder.
 
