@@ -1,10 +1,10 @@
 # DISAE
-## A Deep Learning Framework for Elucidating Chemical Interaction Space of Orphan Proteins
+## MSA-Regularized Protein Sequence Transformer toward Predicting Genome-Wide Chemical-Protein Interactions: Application to GPCRome Deorphanization
 
 
 
 
-This is the repository to replicate experiments for the fine-tuning of classifier with pretrained ALBERT.
+This is the repository to replicate experiments for the fine-tuning of classifier with pretrained ALBERT in the paper [DISAE](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c01285).
 ## ----------- INSTRUCTION -----------
 ### 1. Install Prerequisites
 - python 3.7
