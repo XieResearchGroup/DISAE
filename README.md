@@ -8,7 +8,7 @@ This is the repository to replicate experiments for the fine-tuning of classifie
 ## ----------- INSTRUCTION -----------
 ### 1. Install Prerequisites
 - python 3.7
-- Pytorch 
+- Pytorch
 - rdkit
 - Transformers ([Huggingface](https://huggingface.co/transformers/). version 2.3.0)
 
@@ -26,7 +26,15 @@ There will be four subdirectories in the data folder.
 - Integrated: gives collected chemicals from several database
 - protein: gives you mapping from uniprot ID to triplets form
 
-### 4. Run Finetuning
+### 4. Generate clusters:
+    1. Cluster your protein dataset with `cdhit.sh`. Input is fasta file with all protein sequences in your dataset.
+    2. Apply multi-sequence alignment to the clusters with Clustal Omega. (`clustalo.sh`)
+    3. Build hmm profiles for the clusters with hmmbuild. (`hmmer_build.sh`)
+    4. Redo multi-sequence alignment with the hmm profiles and HMP clusters with HMMER. (`hmmer_align.sh`)
+    5. Construct corpus (singlets and triplets, represent sequence and all sequences) with `construct_hmp_singlets_and_triplets.py`. This step could take long if use only one CPU. Multiprocessing can significantly reduce computing time.
+    6. Generate TFRecord with the corpus with `create_tfrecords.sh`.
+
+### 5. Run Finetuning
 To run ALBERT model (default: ALBERRT frozen transformer):
 ```
 python finetuning_train.py --protein_embedding_type="albert"
